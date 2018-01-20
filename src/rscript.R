@@ -1,11 +1,13 @@
-Median_age <- read.table("W:/Health Informatics_Analytics/Felicity Evison/MSC Projects/Jessie/Median_age.txt", header = TRUE)
-data2 <- read.csv("W:/Health Informatics_Analytics/Felicity Evison/MSC Projects/Jessie/Data2.csv", header = TRUE) #resection data without death in hospital
+datadir <- data_directory
 
-AllOp <- read.csv("W:/Health Informatics_Analytics/Felicity Evison/MSC Projects/Jessie/AllOp.csv", header = TRUE)
+Median_age <- read.table("datadir/Median_age.txt", header = TRUE)
+data2 <- read.csv("datadir/Data2.csv", header = TRUE) #resection data without death in hospital
+
+AllOp <- read.csv("datadir/AllOp.csv", header = TRUE)
 #AllOp$op_date <- strptime(AllOp$op_date, '%d/%m/%Y') #Reformat the dates 
 #AllOp$op_date <- substr(AllOp$op_date, 1,4)
 
-data3 <- read.csv("W:/Health Informatics_Analytics/Felicity Evison/MSC Projects/Jessie/data3.csv", header = TRUE) #resection data with death in hospital
+data3 <- read.csv("datadir/data3.csv", header = TRUE) #resection data with death in hospital
 #data3$surg_date <- strptime(data3$surg_date, '%d/%m/%Y') #Reformat the dates 
 #data3$surg_date <- substr(data3$surg_date, 1,4) #Keep only year in surg_date
 
