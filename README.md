@@ -4,3 +4,11 @@ Pancreatic cancer is a worldwide common disease with very low survival rate. Rec
 
 * Report and supplementaty material are in folder report.
 * All codes can be found in folder src
+
+
+## License
+All content in this repository is openly licensed with a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0, which means you cannot use the material for commercial purposes. If you remix, transform, or build upon the material, you may not distribute the modified material. But you are free to copy and redistribute the materials so long as you **credit the source**.
+
+If you were to use content from this repo in your own work, please attribute me with a sentence like: 
+> The material is (partially) derived from Zhangdaihong Liu's project "[Survival Following Pancreatoduodenectomy in England Perspectives from the HES Database](https://github.com/lzdh/Survival-Following-Pancreatoduodenectomy-in-England-Perspectives-from-the-HES-Database)".
+
